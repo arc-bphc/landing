@@ -1,9 +1,9 @@
 ---
 name: Yug Ajmera
-email: 
-github: 
+email: f20170644@hyderabad.bits-pilani.ac.in
+github: https://github.com/YugAjmera
 linkedin: 
-facebook: 
+facebook: https://www.facebook.com/yugajmera
 quote:
 picture: assets/img/members/Yug Ajmera.png
 --- 

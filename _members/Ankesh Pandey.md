@@ -1,9 +1,9 @@
 ---
 name: Ankesh Pandey
-email: 
-github: 
+email: f20200104@hyderabad.bits-pilani.ac.in
+github: https://github.com/anvaishy
 linkedin: 
-facebook: 
+facebook: https://www.facebook.com/ankeshpandey.pandey.545
 quote:
 picture: assets/img/members/Ankesh Pandey.jpg
 --- 

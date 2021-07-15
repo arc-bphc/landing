@@ -1,9 +1,9 @@
 ---
 name: Mrunalini Ramnath
-email: 
+email: f20171616@hyderabad.bits-pilani.ac.in
 github: 
 linkedin: 
-facebook: 
+facebook: https://www.facebook.com/mrunalini.ramnath
 quote:
 picture: assets/img/members/Mrunalini Ramnath.png
 --- 

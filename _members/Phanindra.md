@@ -1,9 +1,9 @@
 ---
 name: Phanindra
-email: 
-github: 
+email: f20180131@hyderabad.bits-pilani.ac.in
+github: https://github.com/orgs/arc-bphc/people/phanindra-R
 linkedin: 
-facebook: 
+facebook: https://www.facebook.com/phanindra.ramineni.1
 quote:
 picture: assets/img/members/Phanindra.jpg
 --- 

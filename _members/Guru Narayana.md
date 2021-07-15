@@ -1,9 +1,9 @@
 ---
 name: Guru Narayana
-email: 
-github: 
+email: f20190429@hyderabad.bits-pilani.ac.in
+github: https://github.com/guru-narayana
 linkedin: 
-facebook: 
+facebook: https://www.facebook.com/guru.narayana.549
 quote:
 picture: assets/img/members/Guru Narayana.png
 --- 
