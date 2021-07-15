@@ -1,67 +1,78 @@
 <div class="user-details">
-    <h1> Our Team </h1>
+    <h1> Spotlight </h1>
+    <h4> Meet four new members of our club everytime you refresh this page.</h4>
 </div>
-<div class="user">
-    <div class="card">
-        <img src="assets/img/img_avatar.png" alt="Avatar" style="width:100%">
-        <div class="container">
-            <h3><b>John Doe</b></h3>
-            <p>Architect & Engineer</p>
-        </div>
-        <div class="header-icons-small">
-            <a aria-label="Send email" href="mailto:arc@hyderabad.bits-pilani.ac.in"><i
-                    class="icon-small fa fa-envelope"></i></a>
-            <a aria-label="My Github" target="_blank" href="https://github.com/arc-bphc"><i
-                    class="icon-small fa fa-github-alt" aria-hidden="true"></i></a>
-            <a aria-label="My Facebook" target="_blank" href="https://www.facebook.com/automationandroboticsclub"><i
-                    class="icon-small fa fa-facebook-square" aria-hidden="true"></i></a>
-        </div>
-    </div>
-    <div class="card">
-        <img src="assets/img/img_avatar.png" alt="Avatar" style="width:100%">
-        <div class="container">
-            <h3><b>John Doe</b></h3>
-            <p>Architect & Engineer</p>
-        </div>
+<script type="text/javascript">
+// posts = members
+// post = member
+// title = name
+// url = git
+    var emails = [{% for member in site.members %}"{{ member.email }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
 
-        <div class="header-icons-small">
-            <a aria-label="Send email" href="mailto:arc@hyderabad.bits-pilani.ac.in"><i
-                    class="icon-small fa fa-envelope"></i></a>
-            <a aria-label="My Github" target="_blank" href="https://github.com/arc-bphc"><i
-                    class="icon-small fa fa-github-alt" aria-hidden="true"></i></a>
-            <a aria-label="My Facebook" target="_blank" href="https://www.facebook.com/automationandroboticsclub"><i
-                    class="icon-small fa fa-facebook-square" aria-hidden="true"></i></a>
-        </div>
-    </div>
-    <div class="card">
-        <img src="assets/img/img_avatar.png" alt="Avatar" style="width:100%">
-        <div class="container">
-            <h3><b>John Doe</b></h3>
-            <p>Architect & Engineer</p>
-        </div>
+    var names = [{% for member in site.members %}"{{ member.name }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
 
-        <div class="header-icons-small">
-            <a aria-label="Send email" href="mailto:arc@hyderabad.bits-pilani.ac.in"><i
-                    class="icon-small fa fa-envelope"></i></a>
-            <a aria-label="My Github" target="_blank" href="https://github.com/arc-bphc"><i
-                    class="icon-small fa fa-github-alt" aria-hidden="true"></i></a>
-            <a aria-label="My Facebook" target="_blank" href="https://www.facebook.com/automationandroboticsclub"><i
-                    class="icon-small fa fa-facebook-square" aria-hidden="true"></i></a>
-        </div>
-    </div>
-    <div class="card">
-        <img src="assets/img/img_avatar.png" alt="Avatar" style="width:100%">
-        <div class="container">
-            <h3><b>John Doe</b></h3>
-            <p>Architect & Engineer</p>
-        </div>
-        <div class="header-icons-small">
-            <a aria-label="Send email" href="mailto:arc@hyderabad.bits-pilani.ac.in"><i
-                    class="icon-small fa fa-envelope"></i></a>
-            <a aria-label="My Github" target="_blank" href="https://github.com/arc-bphc"><i
-                    class="icon-small fa fa-github-alt" aria-hidden="true"></i></a>
-            <a aria-label="My Facebook" target="_blank" href="https://www.facebook.com/automationandroboticsclub"><i
-                    class="icon-small fa fa-facebook-square" aria-hidden="true"></i></a>
-        </div>
-    </div>
-</div>
+    var photos = [{% for member in site.members %}"{{ member.picture }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+
+    var quotes = [{% for member in site.members %}"{{ member.quote }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+
+    var facebooks = [{% for member in site.members %}"{{ member.facebook }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+
+    var githubs = [{% for member in site.members %}"{{ member.github }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+
+</script>
+<script type="text/javascript">
+
+    var randomIndexUsed = [];
+    var counter = 0;
+    var numberOfPosts = 4;
+
+    document.write('<div class="user">'); // added 
+    while (counter < numberOfPosts)
+    {
+        var randomIndex;
+        var email;
+        var name;
+        var photo;
+        var quote;
+        var facebook;
+        var github;
+
+        randomIndex = Math.floor(Math.random() * names.length);
+
+        if (randomIndexUsed.indexOf(randomIndex) == "-1")
+        {
+            email = emails[randomIndex];
+            name = names[randomIndex];
+            photo = photos[randomIndex];
+            quote = quotes[randomIndex];
+            facebook = facebooks[randomIndex];
+            github = githubs[randomIndex];
+
+            if (counter < numberOfPosts )
+            {
+                document.write('<div class="card">');
+                document.write('<img class="trailer" src="'+photo+'" alt="Avatar" height=250px ">');
+                document.write('<div class="container"><h3><b>'+ name + '</b></h3><p>'+ quote + '</p></div>');
+                document.write('<div class="header-icons-small"><a aria-label="Send email" href="mailto:'+ email +'"><i class="icon-small fa fa-envelope"></i></a><a aria-label="My Github" target="_blank" href="'+ github +'"><i class="icon-small fa fa-github-alt" aria-hidden="true"></i></a><a aria-label="My Facebook" target="_blank" href="'+ facebook +'"><i class="icon-small fa fa-facebook-square" aria-hidden="true"></i></a></div>');
+                document.write('</div>');
+                // document.write('<p><a href="' + postHREF + '">' + postTitle + '</a></p>');
+            }
+
+            randomIndexUsed.push(randomIndex);
+
+            counter++;
+        }
+    }
+    document.write('</div>')
+
+</script>
+
+<style>
+    .trailer {
+    width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+    border: 0px solid black;
+    border-radius: 0px;
+}
+</style>
