@@ -81,6 +81,7 @@ div.container {
     padding: 1px 5px;
     position: relative;
     bottom: 10px;
+    text-overflow: clip; 
     /* border-radius: 25px 25px 0 0; */
 }
 
@@ -4572,8 +4573,8 @@ sub, sup {
     position: relative;
     bottom: 45px;
     right: 15px;
-    width: 500px;
-    height: 375px;
+    width: 50%;
+    
 }
 
 .header {
@@ -4924,6 +4925,7 @@ img.photos {
 
 .horizontal-align {
     display: inline-block;
+    
 }
 
 .vertical {
@@ -4936,7 +4938,7 @@ img.photos {
 }
 
 .align-img {
-    width: 400px;
+    max-width: 50%;
     height: auto;
     position: relative;
     top: 17px;
