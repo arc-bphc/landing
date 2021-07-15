@@ -1,25 +1,129 @@
 <div class="user-details">
     <h1> Contact Us</h1>
     <!-- <div class="contents"> -->
-    <p> {{site.user_description}} {{site.user_description}}</p>
+    <p> {{site.user_description}}</p>
     <!-- </div> -->
     <!-- <div class="images-left">
     <img alt="mountains" src="{{ " /assets/img/skate.jpg" | prepend: site.baseurl }}" />
   </div> -->
     <!-- <div class="contents-right"> -->
-</div>
-<div class="inline-display">
-    <div class="inlining">
+<!-- </div>
+ <div class="inline-display">
+    <div class="videoWrapper">
         <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSedhWIc-zEutXIz4DeAfiFIEc6XJAT1yuupTk63ZkjFU4iPfg/viewform?embedded=true"
-            width="500" height="615" frameborder="0" marginheight="0" marginwidth="0"
-            class="formatting-embedded-form">Sign up for Newsletter</iframe>
-        <iframe
+            width="100%" height="615" frameborder="0" marginheight="0" marginwidth="0"
+            class="formatting-embedded-form">Sign up for Newsletter</iframe>  -->
+        <!-- <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.2161257027315!2d78.56964395001978!3d17.544893902803366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb83594a86132d%3A0xc3e06e9e76cebf3d!2sBirla%20Institute%20of%20Technology%20%26%20Science%20Pilani%2C%20Hyderabad%20Campus!5e0!3m2!1sen!2sin!4v1625693483685!5m2!1sen!2sin"
             width="500" height="435" style="border:0;" class="formatting-embedded" allowfullscreen=""
-            loading="lazy"></iframe>
-    </div>
-</div>
+            loading="lazy"></iframe>-->
+     <!-- </div> 
+</div>  -->
 <!-- <div class="user-details">
     <a class="project-link" href="">Button</a>
 </div> -->
+<!-- <style>
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+</style> -->
+
+<!-- modify this form HTML and place wherever you want your form -->
+
+<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mgerlzag" method="post">
+    <fieldset id="fs-frm-inputs">
+      <label for="full-name">Full Name</label>
+      <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+      <label for="email-address">Email Address</label>
+      <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+      <label for="message">Message</label>
+      <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+    </fieldset>
+    <input type="submit" value="Submit">
+  </form>
+
+  <style>
+      /* reset */
+form input,
+form select,
+form textarea,
+form fieldset,
+form optgroup,
+form label,
+.StripeElement {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+form label,
+form legend {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+  color: aliceblue;
+}
+/* border, padding, margin, width */
+form input,
+form select,
+form textarea,
+.StripeElement {
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0.75em 1rem;
+  margin-bottom: 1.5rem;
+}
+form input:focus,
+form select:focus,
+form textarea:focus,
+.StripeElement:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px;
+}
+form [type="text"],
+form [type="email"],
+.StripeElement {
+  width: 100%;
+}
+form [type="button"],
+form [type="submit"],
+form [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+form [type="button"]:focus,
+form [type="submit"]:focus,
+form [type="reset"]:focus {
+  outline: none;
+}
+
+form select {
+  text-transform: none;
+}
+  </style>
