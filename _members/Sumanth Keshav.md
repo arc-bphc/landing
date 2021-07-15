@@ -1,9 +1,9 @@
 ---
 name: Sumanth Keshav
-email: 
+email: f20171044@hyderabad.bits-pilani.ac.in
 github: 
 linkedin: 
-facebook: 
+facebook: https://www.facebook.com/sumanth.k.kotha
 quote:
 picture: assets/img/members/Sumanth Keshav.png
 --- 

@@ -1,9 +1,9 @@
 ---
 name: Pavan Kalyan N
-email: 
-github: 
+email: nambi.pavan08@gmail.com 
+github: https://github.com/albegade-pavan
 linkedin: 
-facebook: 
+facebook: https://www.facebook.com/profile.php?id=100009435031896
 quote:
 picture: assets/img/members/Pavan Kalyan N.jpg
 --- 

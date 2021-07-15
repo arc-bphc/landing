@@ -1,9 +1,9 @@
 ---
 name: Harsh Jhawar
-email: 
+email: f20160338@hyderabad.bits-pilani.ac.in
 github: 
 linkedin: 
-facebook: 
+facebook: https://www.facebook.com/harsh.jhawar.56
 quote:
 picture: assets/img/members/Harsh Jhawar.jpg
 --- 

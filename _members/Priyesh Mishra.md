@@ -1,9 +1,9 @@
 ---
 name: Priyesh Mishra
-email: 
-github: 
+email: priyeshbitsh@gmail.com
+github: https://github.com/priyesh0453
 linkedin: 
-facebook: 
+facebook: https://www.facebook.com/priyesh.mishra.125760
 quote:
 picture: assets/img/members/Priyesh Mishra.jpg
 --- 

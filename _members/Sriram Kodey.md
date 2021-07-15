@@ -1,9 +1,9 @@
 ---
 name: Sriram Kodey
-email: 
-github: 
+email: f20180671@hyderabad.bits-pilani.ac.in
+github: https://github.com/SriramKodey
 linkedin: 
-facebook: 
+facebook: https://www.facebook.com/Sriram.Kodey
 quote:
 picture: assets/img/members/Sriram Kodey.png
 --- 
