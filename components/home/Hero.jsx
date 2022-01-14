@@ -9,17 +9,20 @@ const Hero = () => {
             The Automation and Robotics Club
           </h1>
           <div className='flex flex-col md:flex-row p-4 gap-x-8 gap-y-3 md:items-center mt-4 border-dashed border-2 border-white'>
-            <h4 className='text-xl font-semibold text-rose-500 tracking-wide'>Design</h4>
-            <h4 className='text-xl font-semibold text-rose-500 tracking-wide'>Develop</h4>
-            <h4 className='text-xl font-semibold text-rose-500 tracking-wide'>Create</h4>
+            <h4 className='text-xl font-semibold text-rose-500 tracking-wide'>
+              Design
+            </h4>
+            <h4 className='text-xl font-semibold text-rose-500 tracking-wide'>
+              Develop
+            </h4>
+            <h4 className='text-xl font-semibold text-rose-500 tracking-wide'>
+              Create
+            </h4>
           </div>
           <h6 className='mt-24 text-lg'>
             Wanna join us? Start{' '}
-            <NextLink href='/resources' passHref>
-              <a
-                href=''
-                className='text-rose-500 hover:text-rose-400 underline underline-offset-4 decoration-dotted transition-colors'
-              >
+            <NextLink href='/levelup' passHref>
+              <a className='text-rose-500 hover:text-rose-400 underline underline-offset-4 decoration-dotted transition-colors'>
                 here
               </a>
             </NextLink>
@@ -34,7 +37,6 @@ const Hero = () => {
       </div>
     </div>
   );
-
 };
 
 export default Hero;

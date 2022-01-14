@@ -3,14 +3,11 @@ import { useMemo } from 'react';
 const Showcase = ({ Component, items, max, linkToAll }) => {
   const items_ = useMemo(() => {
     if (items.length <= max || !max) return items;
-
-    for (let i = items.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [items[i], items[j]] = [items[j], items[i]];
-    }
-
-    return items.slice(0, max);
+    const start = Math.floor(Math.random() * items.length);
+    return items.slice(start, start + max);
   }, [items, max]);
+
+  console.log(items_);
 
   return (
     <div className='flex flex-col gap-y-4'>

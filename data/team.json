@@ -1,0 +1,307 @@
+[
+  {
+    "_id": 0,
+    "name": "Priyesh Mishra",
+    "email": "priyeshbitsh@gmail.com",
+    "image": "/static/images/members/Priyesh Mishra.jpg"
+  },
+  {
+    "_id": 1,
+    "name": "Visweswar Sirish Parupudi",
+    "email": "f20200330@hyderabad.bits-pilani.ac.in",
+    "image": "/static/images/members/Visweswar Sirish Parupudi.jpg"
+  },
+  {
+    "_id": 2,
+    "name": "Gautam Sibansh Mishra",
+    "email": "f20171450@hyderabad.bits-pilani.ac.in",
+    "image": "/static/images/members/Gautam Sibansh Mishra.png"
+  },
+  {
+    "_id": 3,
+    "name": "Suraj S",
+    "email": "suraj.s2306@gmail.com",
+    "image": "/static/images/members/Suraj S.jpg"
+  },
+  {
+    "_id": 4,
+    "name": "Saksham Yadav",
+    "email": "ssysaksham@gmail.com",
+    "image": "/static/images/members/Saksham Yadav.jpg"
+  },
+  {
+    "_id": 5,
+    "name": "Phanindra",
+    "email": "f20180131@hyderabad.bits-pilani.ac.in",
+    "image": "/static/images/members/Phanindra.jpg"
+  },
+  {
+    "_id": 6,
+    "name": "Maneesh Sistla",
+    "email": "f20170238@hyderabad.bits-pilani.ac.in",
+    "image": "/static/images/members/Maneesh Sistla.jpg"
+  },
+  {
+    "_id": 7,
+    "name": "Sriram Kodey",
+    "email": "f20180671@hyderabad.bits-pilani.ac.in",
+    "image": "/static/images/members/Sriram Kodey.png"
+  },
+  {
+    "_id": 8,
+    "name": "Shubham Singla",
+    "email": "shubhamsingla369@gmail.com",
+    "image": "/static/images/members/Shubham Singla.jpg"
+  },
+  {
+    "_id": 9,
+    "name": "Rishabh Singh",
+    "image": "/static/images/members/Rishabh Singh.png"
+  },
+  {
+    "_id": 10,
+    "name": "Akhil Raj Baranwal",
+    "email": "f20160372@hyderabad.bits-pilani.ac.in",
+    "image": "/static/images/members/Akhil Raj Baranwal.jpg"
+  },
+  {
+    "_id": 11,
+    "name": "Prathmesh Mahalle",
+    "email": "f20171635@hyderabad.bits-pilani.ac.in",
+    "image": "/static/images/members/Prathmesh Mahalle.jpg"
+  },
+  {
+    "_id": 12,
+    "name": "Rajiv DVK",
+    "email": "dvkrajivofficial@gmail.com",
+    "image": "/static/images/members/Rajiv DVK.jpg"
+  },
+  {
+    "_id": 13,
+    "name": "Avnish Tiwari",
+    "email": "f20170443@hyderabad.bits-pilani.ac.in",
+    "image": "/static/images/members/Avnish Tiwari.png"
+  },
+  {
+    "_id": 14,
+    "name": "Digvijay Singh",
+    "email": "jaydigvijay@gmail.com",
+    "image": "/static/images/members/Digvijay Singh.jpg"
+  },
+  {
+    "_id": 15,
+    "name": "Abijith Y.L",
+    "email": "abijith3678@gmail.com",
+    "image": "/static/images/members/Abijith Y.L.jpg"
+  },
+  {
+    "_id": 16,
+    "name": "Pavan Kalyan N",
+    "email": "nambi.pavan08@gmail.com ",
+    "image": "/static/images/members/Pavan Kalyan N.jpg"
+  },
+  {
+    "_id": 17,
+    "name": "Debadarshee Das Mohapatra",
+    "email": "f20180861@hyderabad.bits-pilani.ac.in",
+    "image": "/static/images/members/Debadarshee Das Mohapatra.jpg"
+  },
+  {
+    "_id": 18,
+    "name": "Prabhmeet Singh",
+    "email": "f20170378@hyderabad.bits-pilani.ac.in",
+    "image": "/static/images/members/Prabhmeet Singh.JPG"
+  },
+  {
+    "_id": 19,
+    "name": "Divye Kalra",
+    "email": "divyekalra1@gmail.com",
+    "image": "/static/images/members/Divye Kalra.jpeg"
+  },
+  {
+    "_id": 20,
+    "name": "Sumanth Keshav",
+    "email": "f20171044@hyderabad.bits-pilani.ac.in",
+    "image": "/static/images/members/Sumanth Keshav.png"
+  },
+  {
+    "_id": 21,
+    "name": "Utkarsh Jain",
+    "email": "f20180456@hyderabad.bits-pilani.ac.in",
+    "image": "/static/images/members/Utkarsh Jain.png"
+  },
+  {
+    "_id": 22,
+    "name": "Devansh Dharfani",
+    "image": "/static/images/members/Devansh Dharfani.jpg"
+  },
+  {
+    "_id": 23,
+    "name": "Sistla Soumya",
+    "image": "/static/images/members/Sistla Soumya.jpg"
+  },
+  {
+    "_id": 24,
+    "name": "Jatin Badam",
+    "image": "/static/images/members/Jatin Badam.png"
+  },
+  {
+    "_id": 25,
+    "name": "Gauri Tewari",
+    "email": "gauriptewari@gmail.com",
+    "linkedin": "www.linkedin.com/in/gauri-tewari-445a58202",
+    "image": "/static/images/members/Gauri Tewari.jpg"
+  },
+  {
+    "_id": 26,
+    "name": "Rohit Dwivedula",
+    "email": "f20170029@hyderabad.bits-pilani.ac.in",
+    "image": "/static/images/members/Rohit Dwivedula.png"
+  },
+  {
+    "_id": 27,
+    "name": "Krishna Das",
+    "email": "krsnadas919@gmail.com",
+    "image": "/static/images/members/Krishna Das.jpg"
+  },
+  {
+    "_id": 28,
+    "name": "Plava Kattamuri",
+    "email": "f20171230@hyderabad.bits-pilani.ac.in",
+    "image": "/static/images/members/Plava Kattamuri.png"
+  },
+  {
+    "_id": 29,
+    "name": "Harsh Jhawar",
+    "email": "f20160338@hyderabad.bits-pilani.ac.in",
+    "image": "/static/images/members/Harsh Jhawar.jpg"
+  },
+  {
+    "_id": 30,
+    "name": "Dhanush Karupakula",
+    "email": "f20171011@hyderabad.bits-pilani.ac.in",
+    "image": "/static/images/members/Dhanush Karupakula.png"
+  },
+  {
+    "_id": 31,
+    "name": "Thathapudi Sanjeev Paul Joel",
+    "email": "sanjeev.ksr2@gmail.com",
+    "image": "/static/images/members/Thathapudi Sanjeev Paul Joel.jpg"
+  },
+  {
+    "_id": 32,
+    "name": "Abdul Azeem",
+    "email": "sabdulazeem01@gmail.com",
+    "image": "/static/images/members/Abdul Azeem.jpg"
+  },
+  {
+    "_id": 33,
+    "name": "Arunabh Singh",
+    "email": "arunabhsingh25@gmail.com",
+    "image": "/static/images/members/Arunabh Singh.jpg"
+  },
+  {
+    "_id": 34,
+    "name": "Jai Krishna",
+    "email": "f20180744@hyderabad.bits-pilani.ac.in",
+    "image": "/static/images/members/Jai Krishna.jpg"
+  },
+  {
+    "_id": 35,
+    "name": "Guru Narayana",
+    "email": "f20190429@hyderabad.bits-pilani.ac.in",
+    "image": "/static/images/members/Guru Narayana.png"
+  },
+  {
+    "_id": 36,
+    "name": "Vibhum Raj Tripathi",
+    "email": "f20200247@hyderabad.bits-pilani.ac.in",
+    "image": "/static/images/members/Vibhum Raj Tripathi.jpg"
+  },
+  {
+    "_id": 37,
+    "name": "Tanay Ranjan",
+    "email": "tanayranjan1234567890@gmail.com",
+    "image": "/static/images/members/Tanay Ranjan.jpg"
+  },
+  {
+    "_id": 38,
+    "name": "Ujjwal Raizada",
+    "email": "f20171398@hyderabad.bits-pilani.ac.in",
+    "image": "/static/images/members/Ujjwal Raizada.jpg"
+  },
+  {
+    "_id": 39,
+    "name": "Sahil Jain",
+    "email": "sahil.jain03.99@gmail.com",
+    "image": "/static/images/members/Sahil Jain.jpg"
+  },
+  {
+    "_id": 40,
+    "name": "Aditya Chopra",
+    "email": "adi.chopra108@gmail.com",
+    "github": "https://github.com/adeecc",
+    "website": "https://adeecc.vercel.app",
+    "linkedin": "https://www.linkedin.com/in/aditya-chopra-11",
+    "image": "/static/images/members/Aditya Chopra.jpg"
+  },
+  {
+    "_id": 41,
+    "name": "Reuben George",
+    "email": "reubengeorge101@gmail.com",
+    "image": "/static/images/members/Reuben George.png"
+  },
+  {
+    "_id": 42,
+    "name": "Yash Jain",
+    "email": "f20191074@hyderabad.bits-pilani.ac.in",
+    "image": "/static/images/members/Yash Jain.jpg"
+  },
+  {
+    "_id": 43,
+    "name": "Rohan Panda",
+    "email": "Rohanpanda.99@gmail.com",
+    "image": "/static/images/members/Rohan Panda.png"
+  },
+  {
+    "_id": 44,
+    "name": "Yug Ajmera",
+    "email": "f20170644@hyderabad.bits-pilani.ac.in",
+    "image": "/static/images/members/Yug Ajmera.png"
+  },
+  {
+    "_id": 45,
+    "name": "Rithika Chavan",
+    "email": "rithika100700@gmail.com",
+    "image": "/static/images/members/Rithika Chavan.jpg"
+  },
+  {
+    "_id": 46,
+    "name": "Rudresh Pratap Singh",
+    "email": "f20170293@hyderabad.bits-pilani.ac.in",
+    "image": "/static/images/members/Rudresh Pratap Singh.jpg"
+  },
+  {
+    "_id": 47,
+    "name": "Ankesh Pandey",
+    "email": "f20200104@hyderabad.bits-pilani.ac.in",
+    "image": "/static/images/members/Ankesh Pandey.jpg"
+  },
+  {
+    "_id": 48,
+    "name": "Arjun Prasad",
+    "email": "apeinsteinz@gmail.com",
+    "image": "/static/images/members/Arjun Prasad.jpg"
+  },
+  {
+    "_id": 49,
+    "name": "Shikhar Srivastava",
+    "image": "/static/images/members/Shikhar Srivastava.png"
+  },
+  {
+    "_id": 50,
+    "name": "Mrunalini Ramnath",
+    "email": "f20171616@hyderabad.bits-pilani.ac.in",
+    "image": "/static/images/members/Mrunalini Ramnath.png"
+  }
+]
