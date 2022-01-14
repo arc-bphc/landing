@@ -5,7 +5,7 @@ const Footer = ({ navigation, socials }) => {
   return (
     <Container>
       <div className='mt-24 py-10 border-t-[1px] border-primary-300 flex flex-col gap-16'>
-        <div className='grid grid-cols-1 md:grid-cols-3 md:grid-rows-3 gap-1'>
+        <div className='grid grid-cols-1 md:grid-cols-3 md:grid-rows-3 gap-x-1 gap-y-8'>
           {/* Nav */}
           <div className='col-span-1 md:row-span-full flex flex-col gap-y-5 items-center md:items-start'>
             {navigation.map((value) => (
