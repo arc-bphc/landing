@@ -31,9 +31,23 @@ function RoundedImage(props) {
   return <img alt={props.alt} className='rounded-lg' {...props} />;
 }
 
+function EmbedItem({ url }) {
+  return (
+    <iframe
+      className='w-full aspect-video'
+      src={url}
+      title='YouTube video player'
+      frameBorder='0'
+      allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+      allowFullScreen
+    />
+  );
+}
+
 const MDXComponents = {
   Image: RoundedImage,
-  a: CustomLink
+  a: CustomLink,
+  EmbedItem
 };
 
 export default MDXComponents;

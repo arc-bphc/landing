@@ -12,8 +12,6 @@ const MobileMenuItem = ({href, text, toggleFn, hasBorder, isAnimated}) => {
     toggleFn();
   };
 
-  console.log(text);
-
   return (
     <div
       className={cn(

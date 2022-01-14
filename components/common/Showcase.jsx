@@ -10,7 +10,7 @@ const Showcase = ({ Component, items, max, linkToAll }) => {
     }
 
     return items.slice(0, max);
-  }, items);
+  }, [items, max]);
 
   return (
     <div className='flex flex-col gap-y-4'>

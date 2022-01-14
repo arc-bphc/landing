@@ -102,11 +102,3 @@ export function FacebookIcon(props) {
     </svg>
   );
 }
-
-export default {
-  website: WebsiteIcon,
-  linkedin: LinkedinIcon,
-  email: EmailIcon,
-  github: GithubIcon,
-  facebook: FacebookIcon
-};
