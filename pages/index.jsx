@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 import Container from 'components/common/Container';
 
-import { Hero, FeaturedBlogs, Spotlight, Sponsors } from "components/home"
+import { Hero, FeaturedProjects, Spotlight, Sponsors } from "components/home"
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
       <Container>
         <Hero />
-        <FeaturedBlogs />
+        <FeaturedProjects />
         <Spotlight />
         <Sponsors />
       </Container>

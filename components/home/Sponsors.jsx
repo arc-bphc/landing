@@ -3,7 +3,7 @@ import React from 'react';
 const Sponsors = () => {
   return (
     <div className='mt-24 grid grid-cols-1 sm:grid-cols-4 items-center'>
-      <div className='grid-cols-1 border-r-2 border-gray-600'>
+      <div className='grid-cols-1 border-none sm:border-r-2 border-gray-600'>
         <h2 className='text-3xl font-semibold'>Our Sponsors</h2>
       </div>
       <div className='grid-cols-1 sm:grid-cols-3 flex flex-wrap text-gray-300'>

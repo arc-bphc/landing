@@ -3,18 +3,24 @@ import Footer from 'components/common/Footer';
 
 import '../styles/globals.css';
 
+import { GithubIcon, FacebookIcon } from 'components/icons';
+
 const navigation = [
   { text: 'About', href: '/about' },
-  { text: 'Resources', href: '/resources' },
-  // { text: 'team', href: '/team' }, make it a part of about
-  { text: 'Sponsors', href: '/sponsors' },
-  { text: 'Contact', href: '/contact' }
+  { text: 'Blog', href: '/blog' },
+  { text: 'Events', href: '/events' },
+
+  // { text: 'Sponsors', href: '/sponsors' }, Add when you have sponsors lmao
+
 ];
 
 const socials = [
-  { text: 'github', href: 'https://github.com/arc-bphc' },
   {
-    text: 'facebook',
+    icon: <GithubIcon className='h-6 w-6' />,
+    href: 'https://github.com/arc-bphc'
+  },
+  {
+    icon: <FacebookIcon className='h-6 w-6' />,
     href: 'https://www.facebook.com/automationandroboticsclub'
   }
 ];
