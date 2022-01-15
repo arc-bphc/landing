@@ -36,11 +36,23 @@ const Blog = defineDocumentType(() => ({
   }
 }));
 
-const Events = defineDocumentType(() => ({
-  name: 'Events',
-  filePathPattern: 'events/*.mdx',
-  fields: {},
-  computedFields: {}
+const News = defineDocumentType(() => ({
+  name: 'News',
+  filePathPattern: 'news/*.mdx',
+  bodyType: 'mdx',
+  fields: {
+    title: { type: 'string', required: true },
+    startDate: { type: 'date', required: true },
+    endDate: { type: 'date', required: false },
+    links: { type: 'json', required: false },
+    summary: { type: 'string', required: true }
+  },
+  computedFields: {
+    slug: {
+      type: 'string',
+      resolve: (doc) => doc._raw.sourceFileName.replace(/\.mdx$/, '')
+    }
+  }
 }));
 
 const Projects = defineDocumentType(() => ({
@@ -82,10 +94,10 @@ const LevelUp = defineDocumentType(() => ({
 
 const contentLayerConfig = makeSource({
   contentDirPath: 'data',
-  documentTypes: [Blog, Events, Projects, LevelUp],
+  documentTypes: [Blog, News, Projects, LevelUp],
   mdx: {
     remarkPlugins: [
-      [remarkToc, { tight: true, ordered: true }],
+      [remarkToc, { tight: true, }],
       remarkMath,
       remarkGfm
     ],

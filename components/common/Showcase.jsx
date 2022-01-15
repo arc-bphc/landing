@@ -7,8 +7,6 @@ const Showcase = ({ Component, items, max, linkToAll }) => {
     return items.slice(start, start + max);
   }, [items, max]);
 
-  console.log(items_);
-
   return (
     <div className='flex flex-col gap-y-4'>
       <div className='mt-10 grid grid-cols-1 md:grid-cols-3 gap-5 items-stretch'>

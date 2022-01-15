@@ -57,7 +57,7 @@ const Level = ({ level }) => {
             {level.summary}
           </div> */}
           <div className='mt-8 prose prose-invert max-w-none'>
-            <Component components={components} />
+            <Component components={{ ...components }} />
           </div>
         </div>
       </Container>
