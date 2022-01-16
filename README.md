@@ -1,34 +1,109 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Automation and Robotics Club
 
-## Getting Started
+## Tech Stack
 
-First, run the development server:
+- NextJS
+- Tailwind
+- contentlayer for generating blog posts
+- MDX for writing the blog
+- unified plugins
 
-```bash
-npm run dev
-# or
-yarn dev
+## Guide to Writing Content for the Website
+
+### Where to write the content?
+
+Choose the subdomain you wanna add content to: blog, news or levelup. The content you write MUST be a `.mdx` file located in `data/<subdomain>`. All images you wish to add to the post must be present ONLY in `/public/static/images/<subdomain>/<title>` folder
+
+For example, if you are writing a new blog post titled "101 Ways to Screw this Up", it must have the following traits:
+
+- File Name: `101-ways-to-screw-this-up.mdx`
+- File Location: `/data/blog`
+- Full Path: `/data/blog/101-ways-to-screw-this-up.mdx`
+- Path to images: `/public/static/images/<subdomain>/<title>/<img_file_name>.<img_ext>`
+
+### Adding Content
+
+Use normal markdown syntax with a few exceptions.
+
+1. Links must be added using `<a>` tags. Standard syntax, i.e. `[text](href)` is doable, but not recommended.
+2. EVERY SINGLE TAG MUST BE CLOSED. Closing a tag can be accomplished by adding a closing tag, or by using the close tag syntax.
+
+Example:
+
+```html
+<!-- Acceptable -->
+<a href="https://omg.co">Damn</a>
+<!-- Acceptable -->
+<image src="/static/images/levelup.png" />
+
+
+  <!-- Not Acceptable --></EmbedItem
+<EmbedItem url="https://youtube.com/embed/dQw4w9WgXcQ">
+>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Adding Images
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+To add an image in the post, use the `<Image src='/static/images/subdomain/title/img_file_name.img_ext' />` tag.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Notice that the `/public` prefix of the image path has been dropped. This is intentional and must be followed.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Preference order for image formats is as follows:
 
-## Learn More
+1. `.webp`: Use whenever possible. Amazing compression and quality
+2. `.png`: No compression, but good quality
+3. `.jpg`: Compressed and trash quality
 
-To learn more about Next.js, take a look at the following resources:
+### Adding Embedded Items
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To add an embedded item use the `<EmbedItem url="link/to/item/to/embed"/>` tag.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+For youtube, the embed links are of the form: `https://youtube.com/embed/<video_id>`.
 
-## Deploy on Vercel
+### Front Matter Format
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Blogs
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```md
+---
+title: Good ol Title
+published: yyyy-mm-dd
+summary: nice big summary. Approx 25-50 words.
+tags: [comma, separated, tags]
+---
+```
+
+2. Levelup
+
+```md
+---
+title: Level x
+category: 'resource'
+level: x
+tags: [comma, separated, tags]
+---
+```
+
+- category must be either resource or solutions. Anything else WILL cause an error. This is intentional behavior.
+
+3. News
+
+```md
+---
+title: Title of the Event
+startDate: yyyy-mm-dd
+endDate: yyyy-mm-dd
+links:
+  [
+    { 'title': 'funky', 'href': 'https://cold.co' },
+    { 'title': 'Madina', 'href': 'https://why.not' }
+  ]
+summary: Nice ol Summary of the event. 25-50 words
+---
+```
+
+- endDate is optional and maybe left empty. 
+
+---
+
+Made for Fried Rice by [@adeecc](https://adeecc.vercel.app)

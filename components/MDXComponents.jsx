@@ -34,7 +34,7 @@ function RoundedImage(props) {
 function EmbedItem({ url }) {
   return (
     <iframe
-      className='w-full aspect-video'
+      className='w-full aspect-video rounded-lg'
       src={url}
       title='YouTube video player'
       frameBorder='0'
