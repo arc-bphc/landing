@@ -54,7 +54,13 @@ Scanning is done by the HCSR04 ultrasonic sensor mounted upon an SG90 servo moto
 * * *
 ## Components Pins Description
 ### ULN 2003 Stepper Driver
-<img src="{{site.baseurl}}/assets/images/blog/2D-Mapping-Robot/driver.png" alt="Driver" width=auto height=auto>
+<Image
+  src='/static/images/blog/2D-Mapping-Robot/driver.png'
+  alt='driver'
+  width='auto'
+  height='auto'
+/>
+
 It is the motor driver generally used with steppers. Each 28BYJ-48 stepper needs one ULN2003 stepper driver to run. 
 - IN1,IN2,IN3,IN4 - Connected to the Arduino and receive signals from the microcontroller.
 - 5-12V - Power supply to the driver.
@@ -62,14 +68,25 @@ It is the motor driver generally used with steppers. Each 28BYJ-48 stepper needs
 **Datasheet of the Component:**
 https://components101.com/sites/default/files/component_datasheet/IC%20ULN2003%20Datasheet_0.pdf
 ### 28BYJ-48 Stepper Motor
-<img src="{{site.baseurl}}/assets/images/blog/2D-Mapping-Robot/stepper.png" alt="stepper" width=auto height=auto>
+<Image
+  src='/static/images/blog/2D-Mapping-Robot/stepper.png'
+  alt='stepper'
+  width='auto'
+  height='auto'
+/>
 
 It is a unipolar 5 wired stepper motor, where all the 5 wires are connected to the 5 output pins of the ULN2003 stepper driver. **Motor specs can be found in the datasheet link given below:**
 https://datasheet.octopart.com/STEP-MOTOR-5V-%2828BYJ-48-5V%29-mikroElektronika-datasheet-17563577.pdf
 
 
 ### SG90 Micro Servo
-<img src="{{site.baseurl}}/assets/images/blog/2D-Mapping-Robot/servo.png" alt="Servo" width=auto height=auto>
+<Image
+  src='/static/images/blog/2D-Mapping-Robot/servo.png'
+  alt='Servo'
+  width='auto'
+  height='auto'
+/>
+
 It is a micro servo motor which can rotate from 0 to 180 degrees.
 The pins description is as follows:
 - Yellow - Connected to a digital OUTPUT pin. Servo is rotated by giving the angular position using digitalWrite on this pin.
@@ -79,7 +96,13 @@ The pins description is as follows:
 http://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/stores/sg90_datasheet.pdf
 
 ### HCSR04 Ultrasonic Sensor
-<img src="{{site.baseurl}}/assets/images/blog/2D-Mapping-Robot/us.png" alt="Ultrasonic" width=auto height=auto>
+
+<Image
+  src='/static/images/blog/2D-Mapping-Robot/us.png'
+  alt='Ultrasonic'
+  width='auto'
+  height='auto'
+/>
 
 - VCC - Connected to +5V Power supply.
 - Trig - It is an OUTPUT pin connected to a Digital pin. Sends out UV pulses for distance calculation.
@@ -89,7 +112,13 @@ http://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/stores/sg90_datasheet.pdf
 https://components101.com/sites/default/files/component_datasheet/HCSR04%20Datasheet.pdf
 
 ### HC05 Bluetooth Module
-<img src="{{site.baseurl}}/assets/images/blog/2D-Mapping-Robot/bt.png" alt="Bluetooth" width=auto height=auto>
+
+<Image
+  src='/static/images/blog/2D-Mapping-Robot/bt.png'
+  alt='Bluetooth'
+  width='auto'
+  height='auto'
+/>
 
 - VCC - Connected to +5V supply.
 - GND - Connected to ground.
@@ -102,7 +131,12 @@ https://components101.com/sites/default/files/component_datasheet/HC-05%20Datash
 The schematic below shows the circuit connections of the bot:
 
 
-<img src="{{site.baseurl}}/assets/images/blog/2D-Mapping-Robot/diagram.png" alt="Schematic" width=auto height=auto>
+<Image
+  src='/static/images/blog/2D-Mapping-Robot/diagram.png'
+  alt='Schematic'
+  width='auto'
+  height='auto'
+/>
 
 ## Power Supply
 **6V Supply**
@@ -293,8 +327,13 @@ For processing the data, that we receive from Arduino, into a graphical format, 
 Our Processing Output looked like this :-
 
 
+<Image
+  src='/static/images/blog/2D-Mapping-Robot/output1.png'
+  alt='Output1'
+  width='auto'
+  height='auto'
+/>
 
-<img src="{{site.baseurl}}/assets/images/blog/2D-Mapping-Robot/output1.png" alt="Output1" width=auto height=auto>
 
 
 
@@ -386,8 +425,13 @@ void drawRobot()
 }
 ```
 This function is use for drawing body of the bot each time when the `draw()` functions loops each time
+<Image
+  src='/static/images/blog/2D-Mapping-Robot/output2.png'
+  alt='Output2'
+  width='auto'
+  height='auto'
+/>
 
-<img src="{{site.baseurl}}/assets/images/blog/2D-Mapping-Robot/output2.png" alt="Output2" width=auto height=auto>
 
 - `stroke(255,0,0);` sets the color of line or any shape to be drawn.
 - The 2 `line()` command draws the left and right line shown in the figure
@@ -410,9 +454,12 @@ In this part, we are drawing line which will represent the sensor direction.
 
 
 
-<img src="{{site.baseurl}}/assets/images/blog/2D-Mapping-Robot/output3.png" alt="Output3" width=auto height=auto>
-
-
+<Image
+  src='/static/images/blog/2D-Mapping-Robot/output3.png'
+  alt='Output3'
+  width='auto'
+  height='auto'
+/>
 
 ### 5) `void drawObstacle()`  :
 ```processing
@@ -448,10 +495,12 @@ This part of code is about designing a function which will draw obstacle every t
 - From Line 11 to 13, we are marking the obstacle in the array `pixel1`. Note that in `if` part, we are restricting distance which is greater than `smr` to minimise the error.
 - From Line 14 to 22, we are updating the picture of `pixel1` into the screen
 
-
-
-<img src="{{site.baseurl}}/assets/images/blog/2D-Mapping-Robot/output4.png" alt="Output4" width=auto height=auto>
-
+<Image
+  src='/static/images/blog/2D-Mapping-Robot/output4.png'
+  alt='Output4'
+  width='auto'
+  height='auto'
+/>
 
 
 
@@ -783,18 +832,42 @@ void serialEvent(Serial myPort)
 * * *
 ## A few clicks of the Bot
 
-<img src="{{site.baseurl}}/assets/images/blog/2D-Mapping-Robot/r1.png" alt="Robot1" width=auto height=auto>
-
-<img src="{{site.baseurl}}/assets/images/blog/2D-Mapping-Robot/r2.png" alt="Robot2" width=auto height=auto>
-
-<img src="{{site.baseurl}}/assets/images/blog/2D-Mapping-Robot/r3.png" alt="Robot3" width=auto height=auto>
-
-<img src="{{site.baseurl}}/assets/images/blog/2D-Mapping-Robot/r4.png" alt="Robot4" width=auto height=auto>
-
-<img src="{{site.baseurl}}/assets/images/blog/2D-Mapping-Robot/r5.png" alt="Robot5" width=auto height=auto>
-
-<img src="{{site.baseurl}}/assets/images/blog/2D-Mapping-Robot/r6.png" alt="Robot6" width=auto height=auto>
-
+<Image
+  src='/static/images/blog/2D-Mapping-Robot/r1.png'
+  alt='Robot'
+  width='auto'
+  height='auto'
+/>
+<Image
+  src='/static/images/blog/2D-Mapping-Robot/r2.png'
+  alt='Robot'
+  width='auto'
+  height='auto'
+/>
+<Image
+  src='/static/images/blog/2D-Mapping-Robot/r3.png'
+  alt='Robot'
+  width='auto'
+  height='auto'
+/>
+<Image
+  src='/static/images/blog/2D-Mapping-Robot/r4.png'
+  alt='Robot'
+  width='auto'
+  height='auto'
+/>
+<Image
+  src='/static/images/blog/2D-Mapping-Robot/r5.png'
+  alt='Robot'
+  width='auto'
+  height='auto'
+/>
+<Image
+  src='/static/images/blog/2D-Mapping-Robot/r6.png'
+  alt='Robot'
+  width='auto'
+  height='auto'
+/>
 
 
 * * *

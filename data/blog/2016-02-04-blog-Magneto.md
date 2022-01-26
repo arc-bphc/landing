@@ -26,11 +26,21 @@ To make a bot which can pickup Ping-Pong Balls and shoot them into a particular 
 
 ## Details
 The challenge was to build a robot for the IIT Bombay Techfest which is capable of lifting a ball and shooting it to a particular area. The work started a few weeks ago and the mechanical structure was done as you can see in the video here. The Bot was controlled wirelessly using a glove with an accelerometer and Arduino coupled with RF Transmitter.
-<img src="{{site.baseurl}}/assets/images/blog/thumbnails/Magneto.png" alt="Resistor" width=auto height=auto>
 
+<Image
+  src='/static/images/blog/thumbnails/Magneto.png'
+  alt='Magneto'
+  width='auto'
+  height='auto'
+/>
 The bot received those commands and executed various steps accordingly.
-<img src="{{site.baseurl}}/assets/images/blog/Magneto/1.png" alt="Resistor" width=auto height=auto>
 
+<Image
+  src='/static/images/blog/Magneto/1.png'
+  alt='Magneto'
+  width='auto'
+  height='auto'
+/>
 Development Video can be found here and Final Video can be found here.
 
 <div>{%- include extensions/youtube.html id='v3P1aPGCspI' -%}</div>

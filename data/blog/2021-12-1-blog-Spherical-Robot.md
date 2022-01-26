@@ -65,7 +65,12 @@ The data from the joystick(input on both the joystick axes) is sent to the Ardui
 
 Here's the circuit for the Control Unit of the Locomotion Part:
 
-<img src="{{site.baseurl}}/assets/images/blog/Spherical-Bot/1.png" alt="Resistor" width=auto height=auto>
+<Image
+  src='/static/images/blog/Spherical-Bot/1.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 
 
 #### Motion unit:
@@ -73,7 +78,12 @@ The data sent by the TX is received by another such nRF24l01 module present insi
 
 Here's the circuit for the Motion Unit of the Locomotion Part:
 
-<img src="{{site.baseurl}}/assets/images/blog/Spherical-Bot/2.png" alt="Resistor" width=auto height=auto>
+<Image
+  src='/static/images/blog/Spherical-Bot/2.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 
 ---
 The following is the code Control Unit of the locomotion part
@@ -389,7 +399,12 @@ Next, connect the esp32 camera module to Uno board as follows:
 
 Now, until the code in the IDE gets uploaded, connect the IO0 on esp32 to the GND. 
 
-<img src="{{site.baseurl}}/assets/images/blog/Spherical-Bot/3.png" alt="Resistor" width=auto height=auto>
+<Image
+  src='/static/images/blog/Spherical-Bot/3.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 
 You'll then be able to see this on your screen(ofcourse, here port is acc. to your system)
 When you see the screen as above, press the ESP32-CAM on-board RST button.
@@ -398,7 +413,12 @@ After uploading the code, disconnect GPIO 0 from GND. Open the Serial Monitor at
 
 You should see something like this:
 
-<img src="{{site.baseurl}}/assets/images/blog/Spherical-Bot/4.png" alt="Resistor" width=auto height=auto>
+<Image
+  src='/static/images/blog/Spherical-Bot/4.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 
 Now, you can access your camera streaming server on your local network. Open a browser and type the ESP32-CAM IP address. A page with the current video streaming should load.
 
@@ -423,16 +443,34 @@ The top layer is held on the bottom layer using metal spacers, screws and bolts.
 
 The following pics show the internal structure:
 
-<img src="{{site.baseurl}}/assets/images/blog/Spherical-Bot/5.png" alt="Resistor" width=auto height=auto>
+<Image
+  src='/static/images/blog/Spherical-Bot/5.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 
-<img src="{{site.baseurl}}/assets/images/blog/Spherical-Bot/6.png" alt="Resistor" width=auto height=auto>
-
-<img src="{{site.baseurl}}/assets/images/blog/Spherical-Bot/7.png" alt="Resistor" width=auto height=auto>
+<Image
+  src='/static/images/blog/Spherical-Bot/6.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
+<Image
+  src='/static/images/blog/Spherical-Bot/7.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 
 
 Our final bot looks like this after the assembly:
-
-<img src="{{site.baseurl}}/assets/images/blog/Spherical-Bot/8.png" alt="Resistor" width=auto height=auto>
+<Image
+  src='/static/images/blog/Spherical-Bot/8.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 
 ---
 ---

@@ -40,17 +40,32 @@ In our world of embedded electronics hackery, Bluetooth serves as an excellent p
 
 HC‐05 module is an easy to use Bluetooth SPP (Serial Port Protocol) module, designed for transparent wireless serial connection setup. The module has two modes of operation, Command Mode where we can send AT commands to it and Data Mode where it transmits and receives data to another Bluetooth module.
 
-<img src="{{site.baseurl}}/assets/images/blog/Voice-Controlled-Car/1.png" alt="Resistor" width=auto height=auto>
+<Image
+  src='/static/images/blog/Voice-Controlled-Car/1.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 
 ### About Voltage Regulator LM 7805
 Voltage sources in a circuit may have fluctuations resulting in not providing fixed voltage outputs. A voltage regulator IC maintains the output voltage at a constant value. 7805 IC, a member of 78xx series of fixed linear voltage regulators used to maintain such fluctuations, is a popular voltage regulator integrated circuit (IC).
 
-<img src="{{site.baseurl}}/assets/images/blog/Voice-Controlled-Car/2.png" alt="Resistor" width=auto height=auto>
+<Image
+  src='/static/images/blog/Voice-Controlled-Car/2.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 
 ### About Motor Driver L293D
 L293D is a typical Motor driver or Motor Driver IC which allows DC motor to drive on either direction. L293D is a 16-pin IC which can control a set of two DC motors simultaneously in any direction. It works on the concept of H-bridge. H-bridge is a circuit which allows the voltage to be flown in either direction.
 
-<img src="{{site.baseurl}}/assets/images/blog/Voice-Controlled-Car/3.png" alt="Resistor" width=auto height=auto>
+<Image
+  src='/static/images/blog/Voice-Controlled-Car/3.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 
 ## Software & Working 
 We connect the Bluetooth module with the mobile app. Once done, the commands which we give through the mobile get sent to the Arduino via the module. We accept character by character from the serial buffer sent by the app and combine them to form a string.

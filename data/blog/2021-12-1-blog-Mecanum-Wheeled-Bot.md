@@ -15,7 +15,7 @@ cover: /assets/images/blog/thumbnails/Servo Motors PWM.png
 ---
 title: Mecanum Wheeled Rover
 published: 2021-12-05
-summary: All Direction Rover
+summary: 'All Direction Rover'
 tags: [arduino,Servo,PWM,mechanumwheels]
 ---
 
@@ -24,8 +24,13 @@ tags: [arduino,Servo,PWM,mechanumwheels]
 The Mecanum wheel is based on a tireless wheel, with a series of rubberized external rollers obliquely attached to the whole circumference of its rim. These rollers typically each have an axis of rotation at 45° to the wheel plane and at 45° to the axle line.Each Mecanum wheel is an independent non-steering drive wheel with its own powertrain, and when spinning generates a propelling force perpendicular to the roller axle, which can be vectored into a longitudinal and a transverse component in relation to the vehicle.
 
 
-<img src="{{site.baseurl}}/assets/images/blog/Mecanum-wheeled-bot/1.png" alt="Resistor" width=auto height=auto>
 
+<Image
+  src='/static/images/blog/Mecanum-wheeled-bot/1.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 
 
 Movements to any directions:

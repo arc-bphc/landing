@@ -40,15 +40,30 @@ Its specifications are as follows :
 • Temperature range: 0 ºC – 55 ºC
 
 
-<img src="{{site.baseurl}}/assets/images/blog/Robotic-Arm/1.png" alt="Resistor" width=auto height=auto>
+<Image
+  src='/static/images/blog/Robotic-Arm/1.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 
-<img src="{{site.baseurl}}/assets/images/blog/Robotic-Arm/2.png" alt="Resistor" width=auto height=auto>
+<Image
+  src='/static/images/blog/Robotic-Arm/2.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 
 ***
 ### Connecting Linkers
 **Linkers** are the connecting rods - which are typically rectangular - that are placed between two joints. These linkers constitute a major part of the **" M.M."**. We 3D printed the linkers and we connected them together at the joints in the following way:
 
-<img src="{{site.baseurl}}/assets/images/blog/Robotic-Arm/3.png" alt="Resistor" width=auto height=auto>
+<Image
+  src='/static/images/blog/Robotic-Arm/3.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 
 
 ***
@@ -71,9 +86,19 @@ This module enables communication between the arduino uno and the custom-built a
 Here, the app gives a number between 0 and 180 to be sent to a given servo (number is based on the position of the slider). This is then transmitted to the module as serial data and thus to the uno. This information is used to operate the servo accordingly using servo.write().
 
 
-<img src="{{site.baseurl}}/assets/images/blog/Robotic-Arm/4.png" alt="Resistor" width=auto height=auto>
+<Image
+  src='/static/images/blog/Robotic-Arm/4.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 
-<img src="{{site.baseurl}}/assets/images/blog/Robotic-Arm/5.png" alt="Resistor" width=auto height=auto>
+<Image
+  src='/static/images/blog/Robotic-Arm/5.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 
 
 Pin Description:

@@ -50,7 +50,12 @@ The project basically consists of 3 stages:-
 To amplify the voltage signals of the electret mic, op-amp(LM 358) was used. Op-amps were preferred over NPN transistors because of the high voltage gain of the op-amps. Fundamentally, an op-amp is an equivalent of many transistors and so, has a higher performance .
 
 The inverting AC amplifier configuration was used which mean that there is inversion of the output signal with respect to the input as it is 180o out of phase. This is the circuit diagram for it :-
-<img src="{{site.baseurl}}/assets/images/blog/Music-Visualisation/1.png" alt="Resistor" width=auto height=auto>
+<Image
+  src='/static/images/blog/Music-Visualisation/1.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 
 
 The V_OUT_UC goes into the Arduino. The V_OUT is for connecting earphones directly.
@@ -60,16 +65,28 @@ Voltage gain for an inverting amplifier is given by the inverting operational am
 Here, the voltage gain is given by -R5/R4. Using R5 as 100K and R4 as 1K, a voltage gain of 100x was achieved.
 
 A graphical representation of the op-amp circuit is here
-<img src="{{site.baseurl}}/assets/images/blog/Music-Visualisation/2.png" alt="Resistor" width=auto height=auto>
-
+<Image
+  src='/static/images/blog/Music-Visualisation/2.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 
 Here, an electrolytic Microphone Coupling Capacitor has been used. A coupling capacitor is generally used in audio circuits to keep the DC and AC signals apart. DC is used give power to the parts of the circuit while the incoming audio signal will be AC. Since a capacitor blocks low frequencies and allows high frequencies, it can be used to block the DC signals and allowing only AC signals to pass through, effectively decreasing the noise.                                                                                                                                                   The next interesting component is the ceramic Power Supply Decoupling Capacitor which protects the ICs by suppressing the high frequency signals in the power supply signals.                                                                                                                                         The power supply is taken from the 5V  of the Arduino.
 
 The reading on the serial plotter look like this :-
-<img src="{{site.baseurl}}/assets/images/blog/Music-Visualisation/3.png" alt="Resistor" width=auto height=auto>
-
-<img src="{{site.baseurl}}/assets/images/blog/Music-Visualisation/4.png" alt="Resistor" width=auto height=auto>
-
+<Image
+  src='/static/images/blog/Music-Visualisation/3.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
+<Image
+  src='/static/images/blog/Music-Visualisation/4.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 
 ### The RGB LED Strip Circuit
 This strip works on 12V. Since the Arduino cannot provide 12V, NPN transistors (TIP31Cs) have been used.
@@ -77,7 +94,12 @@ This strip works on 12V. Since the Arduino cannot provide 12V, NPN transistors (
 The PWM voltage output pins of the Arduino, which control the brightness, are connected to the base, the LED strip to the collector and the emitter to the ground.
 
 This is the graphical representation of the circuit:-
-<img src="{{site.baseurl}}/assets/images/blog/Music-Visualisation/5.png" alt="Resistor" width=auto height=auto>
+<Image
+  src='/static/images/blog/Music-Visualisation/5.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 
 
 ### The Code for Sampling and Filtering
@@ -94,8 +116,18 @@ The cut-off frequencies for the filters were calculated by playing tracks and ob
 [This is the link to the Arduino Code.](https://github.com/gaurabdg/FIR-Spectrum-Analyzer/blob/master/src/arduino/BeatDet.ino)
 
 Just a few snaps
-<img src="{{site.baseurl}}/assets/images/blog/Music-Visualisation/6.png" alt="Resistor" width=auto height=auto>
-<img src="{{site.baseurl}}/assets/images/blog/Music-Visualisation/7.png" alt="Resistor" width=auto height=auto>
+<Image
+  src='/static/images/blog/Music-Visualisation/6.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
+<Image
+  src='/static/images/blog/Music-Visualisation/7.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 
 
 <div>{%- include extensions/youtube.html id='zxZnOtWrG0c' -%}</div>

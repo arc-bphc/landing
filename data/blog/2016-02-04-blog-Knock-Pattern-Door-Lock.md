@@ -38,8 +38,13 @@ The Arduino, servo (attached with the latch), LCD screen and circuit are enclose
 The LCD screen displays appropriate messages to enable interaction with the user.
 When a person knocks on the door, his/her knock pattern is compared with the preset knock password using Arduino.
 If the person’s knock password matches the preset, the servo rotates and the latch opens.
-<img src="{{site.baseurl}}/assets/images/blog/thumbnails/knock-door-lock.png" alt="Resistor" width=auto height=auto>
 
+<Image
+  src='/static/images/blog/thumbnails/knock-door-lock.png'
+  alt='Knock Door Lock'
+  width='auto'
+  height='auto'
+/>
 ## Special features
 1. The Arduino is programmed such that the tempo of the knocks can be varied.
 2. The password can be reset and another knock pattern can be recorded as the preset.

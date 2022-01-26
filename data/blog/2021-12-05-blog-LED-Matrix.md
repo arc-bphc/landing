@@ -31,15 +31,18 @@ Create a music waveform visualiser using a Pixel Matrix. We use Fast Fourier Tra
 FFT is based on the principle that any signal(periodic or not) can be reconstructed by adding sinusoidal waves of different frequencies and amplitudes. Now FFT does this in reverse, where it splits an already existing wave into sinusoidal signals i.e the frequencies the wave contains.
 
 
-
-
-
-
-<img src="{{site.baseurl}}/assets/images/blog/LED-Matrix/1.png" alt="1" width=auto height=auto>
-
-
-
-<img src="{{site.baseurl}}/assets/images/blog/LED-Matrix/2.png" alt="2" width=auto height=auto>
+<Image
+  src='/static/images/blog/LED-Matrix/1.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
+<Image
+  src='/static/images/blog/LED-Matrix/2.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 
 
 
@@ -69,14 +72,26 @@ Thus for a wave of this frequency, 5 samples per wave is good enough to recreate
 - 
 Thus this is where the Nyquist theorem comes in and says that the maximum frequency we are able to sample is half of the sampling frequency.
 
-<img src="{{site.baseurl}}/assets/images/blog/LED-Matrix/3.png" alt="3" width=auto height=auto>
+<Image
+  src='/static/images/blog/LED-Matrix/3.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
+
 
 
 
 ## Number of Samples
 The FFT algorithm works with a finite number of samples. This number needs to be 2n where n is an integer (resulting in 32, 64, 128, etc). The larger this number is, the slower the algorithm will be. However, with many samples, you will get a larger resolution for the results.
 
-<img src="{{site.baseurl}}/assets/images/blog/LED-Matrix/4.png" alt="4" width=auto height=auto>
+<Image
+  src='/static/images/blog/LED-Matrix/4.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
+
 
 ## Implementation:
 We can implement FFT into our projects conveniently using the arduinoFFT.h library, the documentation for which can be found online.

@@ -35,8 +35,13 @@ The main aim of this project was to apply machine learning(Supervised Learning: 
 
 First we measure the distance (position) of the ball using ultrasound sensor. We then calculate the deviation of the ball from its mean position (center). For training we use joystick to train the model how much it should move the servo (which is used to rotate the plate) which is proportional to angle of deviation from mean.
 
-<img src="{{site.baseurl}}/assets/images/blog/thumbnails/Ball-balancing Bot.png" alt="Resistor" width=auto height=auto>
 
+<Image
+  src='/static/images/blog/thumbnails/Ball-balancing Bot.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 
 ### Distance Measurement:
 For measuring the distance  or position of the ball on the plate we have used Ultrasound Sensor to determine the deviation of ball from the mean position (center) of plate. We have used two ultrasound sensor (second one would have been redundant in ideal cases as length of plate is known),but due to noisy measurement we had use two.

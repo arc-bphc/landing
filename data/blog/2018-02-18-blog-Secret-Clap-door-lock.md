@@ -38,8 +38,13 @@ usage.
 It uses a microphone which supplies the input to an amplifier, peak detector and
 buffer. When the sensor detects a sound, it processes an output signal voltage which is
 sent to a microcontroller then performs necessary processing.
-<img src="{{site.baseurl}}/assets/images/blog/Secret-Clap-door/1.png" alt="Resistor" width=auto height=auto>
 
+<Image
+  src='/static/images/blog/Secret-Clap-door/1.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 ## Software & Working
 Here we are glowing an LED instead of opening a lock for simplicity. You can use a servo motor to open a lock. If a particular pattern of claps is detected , only then the lock will open . For this we are using a sound sensor module. In normal state , the sensor gives HIGH . As soon as a clap is detected , it gives LOW .
 

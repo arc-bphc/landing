@@ -34,13 +34,21 @@ To make a vehicle that autonomously orients in the direction of maximum light ex
 - DC Motors-2
 - Bluetooth module-HC05-1
 - Lead-acid battery-1
-<img src="{{site.baseurl}}/assets/images/blog/Maximum-Luminosity-bot/2.png" alt="Resistor" width=auto height=auto>
-
+<Image
+  src='/static/images/blog/Maximum-Luminosity-bot/2.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
  
 
 ## Details
 The vehicle is controlled wirelessly by a keyboard through Bluetooth. It moves to a particular area of choice, and when given a command, it orients to the spatial position where it receives maximum amount of light. (Designed for a solar panel).It has 2 degrees of freedom, 1 horizontal, and 1 vertical. The tolerance value and speed can be controlled using potentiometers.
 
-<img src="{{site.baseurl}}/assets/images/blog/Maximum-Luminosity-bot/1.png" alt="Resistor" width=auto height=auto>
-
+<Image
+  src='/static/images/blog/Maximum-Luminosity-bot/1.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 <div>{%- include extensions/youtube.html id='7aDnZlmtvBs' -%}</div>

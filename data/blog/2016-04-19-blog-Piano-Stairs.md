@@ -40,8 +40,13 @@ The light sources should be on one side of the stair, the photo-resistors on the
 
 ## Principle
 A photo-resistor’s resistance value changes with respect to the intensity of light falling on it.
- <img src="{{site.baseurl}}/assets/images/blog/Piano-Stairs/circuit.png" alt="Resistor" width=auto height=auto>
 
+<Image
+  src='/static/images/blog/Piano-Stairs/circuit.png'
+  alt='ckt'
+  width='auto'
+  height='auto'
+/>
 
 
 ## Basic circuit
@@ -49,8 +54,12 @@ Repeat this circuit 10 times to make an array.
 
 Also, make a array of 1 watt led to illuminate the LDR
 
- <img src="{{site.baseurl}}/assets/images/blog/thumbnails/Piano Stairs.png" alt="Resistor" width=auto height=auto>
-
+<Image
+  src='/static/images/blog/thumbnails/Piano Stairs.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 
 Code:- [Pitches](https://technopediabphc.files.wordpress.com/2016/04/pitches.docx)
 

@@ -42,8 +42,13 @@ To follow a wall (The wall refers to a boundary line of any shape) .The robot ha
 8. Regular Size Castor Wheel.
 
 
-<img src="{{site.baseurl}}/assets/images/blog/thumbnails/Wall Follower.png" alt="Resistor" width=auto height=auto>
 
+<Image
+  src='/static/images/blog/thumbnails/Wall Follower.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 ## WORKING
 This Robot Uses 3 Ultrasound Sensors(Left(l),Right(r),Center(c)).The Robot first moves forward.If the distance measured between any of the sensors and a wall is less than 12 cm then it means that a wall is found(sensor is active) and this has to followed. The robot responds in the way that is given in the table below.
 

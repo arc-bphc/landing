@@ -23,8 +23,13 @@ Carpal Tunnel syndrome is a common problem with people who are involved in desk-
 <!--more-->
 
 
-<img src="{{site.baseurl}}/assets/images/blog/thumbnails/EasyMouse.png" alt="Resistor" width=auto height=auto>
 
+<Image
+  src='/static/images/blog/thumbnails/EasyMouse.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 ## Hardware 
 - ARDUINO NANO
 - ADXL345

@@ -34,8 +34,13 @@ The aim of this robot is to avoid all the obstacles in its path and to move on t
 - 1 – regular sized castor wheel.
 - 1 – ulrasound sensor.
 - 1 – servo motor.
-<img src="{{site.baseurl}}/assets/images/blog/thumbnails/Obstacle Avoidance Vehicle 2.png" alt="Resistor" width=auto height=auto>
 
+<Image
+  src='/static/images/blog/thumbnails/Obstacle Avoidance Vehicle 2.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 ## Working
 This uses the ultrasound sensor to calculate the distance of the object in front of it and it is programmed in such a way that if the object distance is less than 30 cm the bot stops moving forward. The servo motor then makes the ultrasound sensor turn 90 degrees right and records the distance and then 90 degrees left and records the object distance.Depending on which of the object distances (left or right) is less it takes a turn towards that direction and continues to move forward until the initial condition is met.
 

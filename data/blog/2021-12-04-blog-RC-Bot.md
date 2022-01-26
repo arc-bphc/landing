@@ -24,7 +24,13 @@ NRF controlled RC Car
 ## Story
 # RC BOT
 ## Overview
-<img src="{{site.baseurl}}/assets/images/blog/RC-Bot/1.png" alt="1" width=auto height=auto>
+
+<Image
+  src='/static/images/blog/RC-Bot/1.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 
 <div>{%- include extensions/youtube.html id='GEZFZWXSNjg' -%}</div>
 
@@ -41,7 +47,12 @@ The components used for the RC bot are-
 The car is fitted with a pro mini and an NRFacting as a receiver. The remote consists of a pro mini, an NRF acting as a transmitter and an MPU 6050. The remote consists of a switch which enables the user to toggle between joystick mode and motion control mode. The NRF transmitter sends the joystick/ MPU reading to the receiving NRF which sends the appropriate signal to the pro mini on the bot and finally to the actuators
 ***
 ## MPU 6050
-<img src="{{site.baseurl}}/assets/images/blog/RC-Bot/2.png" alt="2" width=auto height=auto>
+<Image
+  src='/static/images/blog/RC-Bot/2.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 The MPU-6050 is the world’s first and only 6-axis motion tracking devices designed for the low power, low cost, and high performance requirements of smartphones, tablets and wearable sensors.
 MPU6050 is a Micro Electro-mechanical system (MEMS), it consists of three-axis accelerometer and three-axis gyroscope. It helps us to measure velocity, orientation, acceleration, displacement and other motion like features.
 This module uses the I2C module for interfacing with Arduino.

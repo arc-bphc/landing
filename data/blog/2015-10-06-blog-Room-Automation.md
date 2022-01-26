@@ -33,14 +33,24 @@ To control the lights and fan of the room through an Android app over Bluetooth.
 
 Though Ardudroid has many Bugs but it works good.
 
-<img src="{{site.baseurl}}/assets/images/blog/Room-Automation/1.png" alt="Resistor" width=auto height=auto>
 
+<Image
+  src='/static/images/blog/Room-Automation/1.png'
+  alt='Room Automation'
+  width='auto'
+  height='auto'
+/>
 ## Technical details
 Upload the code to Arduino (found at the bottom) and
 
 ### Connect the schematics as shown in the diagram:-
-<img src="{{site.baseurl}}/assets/images/blog/Room-Automation/2.png" alt="Resistor" width=auto height=auto>
 
+<Image
+  src='/static/images/blog/Room-Automation/2.png'
+  alt='Room Automation'
+  width='auto'
+  height='auto'
+/>
 ### How to connect your setup to the switch board:-
 
 1. Go and find the MCB of your room. You will find a MCB Board in your corridor.

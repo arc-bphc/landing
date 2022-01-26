@@ -27,13 +27,23 @@ Dance Dance Revolution is the pioneering series of the rhythm and dance genre in
 
 ## Construction
 It was made out of plywood and hardboard.The base was made of plywood entirely as shown in figure.
-<img src="{{site.baseurl}}/assets/images/blog/DDR-Floor/1.png" alt="Resistor" width=auto height=auto>
 
+<Image
+  src='/static/images/blog/DDR-Floor/1.png'
+  alt='ddr floor'
+  width='auto'
+  height='auto'
+/>
 The simple arrangement of metal sheets pasted to plywood and 3mm hardboard sheet which is quiet flexible and Insulation foam tape made it strong as well as durable.
 Metal sheets were soldered to the wire which goes through small holes and by side of insulation tape.
 The assembly is shown in figure
-<img src="{{site.baseurl}}/assets/images/blog/thumbnails/DDR Floor.png" alt="Resistor" width=auto height=auto>
 
+<Image
+  src='/static/images/blog/thumbnails/DDR Floor.png'
+  alt='ddr floor'
+  width='auto'
+  height='auto'
+/>
 
 ## Connections and Interfacing:-
 He hacked into a gamepad and found that the direction keys sent a signal when they are grounded.

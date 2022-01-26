@@ -38,8 +38,13 @@ This is a basic project to control a bot or any other appliance wirelessly using
 The transmitter was connected with the Arduino Uno and some push buttons to take inputs as a remote control.
 
 The receiver was connected to mega and output pins were further extended to a relay board, which in this case was used as Dual H-Bridge to control motors. This relay board can be replaced with a common relay board to control electrical appliances for home automation using the same code. The relay board was powered with a 12V adapter.
-<img src="{{site.baseurl}}/assets/images/blog/thumbnails/Bot Control using RF.png" alt="Resistor" width=auto height=auto>
 
+<Image
+  src='/static/images/blog/thumbnails/Bot Control using RF.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 ## Code
 Whenever a push button is pressed the corresponding pin changes it states either HIGH or LOW.
 
