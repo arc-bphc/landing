@@ -44,65 +44,37 @@ The bot used 85 watt motors with Mecanum wheels powered by Motors and 2 lead aci
 The other bot had everything same except the wheels it used Omni wheels.
 
 
+<Image
+  src='/static/images/blog/thumbnails/Badminton Playing Bot - ROBOCON 2015.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 
-<!-- <div class="w3-content w3-display-container">
-  <img class="mySlides1" src="/site/assets/images/blog/thumbnails/Badminton Playing Bot - ROBOCON 2015.png" style="width:100%">
-  <img class="mySlides1" src="/site/assets/images/blog/Badminton-Playing-Bot/field.png" style="width:100%">
-  <img class="mySlides1" src="/site/assets/images/blog/Badminton-Playing-Bot/room.png" style="width:100%">
-  <img class="mySlides1" src="/site/assets/images/blog/Badminton-Playing-Bot/workshop1.png" style="width:100%">
-  <img class="mySlides1" src="/site/assets/images/blog/Badminton-Playing-Bot/workshop2.png" style="width:100%">
-  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 0)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 0)">&#10095;</button>
-</div>
+<Image
+  src='/static/images/blog/Badminton-Playing-Bot/field.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 
-<script>
-var slideIndex = [1,1];
-var slideId = ["mySlides1"]
-showDivs(1, 0);
-showDivs(1, 1);
+<Image
+  src='/static/images/blog/Badminton-Playing-Bot/workshop2.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
+<Image
+  src='/static/images/blog/Badminton-Playing-Bot/room.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
+<Image
+  src='/static/images/blog/Badminton-Playing-Bot/workshop1.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
 
-function plusDivs(n, no) {
-  showDivs(slideIndex[no] += n, no);
-}
 
-function showDivs(n, no) {
-  var i;
-  var x = document.getElementsByClassName(slideId[no]);
-  if (n > x.length) {slideIndex[no] = 1}
-  if (n < 1) {slideIndex[no] = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  x[slideIndex[no]-1].style.display = "block";  
-}
-</script>  -->
-
-<div class="swiper swiper-demo">
-  <div class="swiper__wrapper">
-    <div class="swiper__slide">
-    <img  src="/site/assets/images/blog/thumbnails/Badminton Playing Bot - ROBOCON 2015.png">
-    </div>
-    <div class="swiper__slide">
-    <img  src="/site/assets/images/blog/Badminton-Playing-Bot/field.png">
-    </div>
-    <div class="swiper__slide">
-    <img  src="/site/assets/images/blog/Badminton-Playing-Bot/workshop2.png">
-    </div>
-    <div class="swiper__slide">
-    <img  src="/site/assets/images/blog/Badminton-Playing-Bot/room.png">
-    </div>
-    <div class="swiper__slide">
-      <img  src="/site/assets/images/blog/Badminton-Playing-Bot/workshop1.png">
-    </div>
-  </div>
-  <div class="swiper__button swiper__button--prev fas fa-chevron-left"></div>
-  <div class="swiper__button swiper__button--next fas fa-chevron-right"></div>
-</div>
- 
-<script>
-{%- include scripts/lib/swiper.js -%}
-var SOURCES = window.TEXT_VARIABLES.sources;
-window.Lazyload.js(SOURCES.jquery, function() {
-  $('.swiper-demo').swiper();
-});
-</script>
