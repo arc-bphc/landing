@@ -1,0 +1,47 @@
+---
+title: Persistence of Vision Stick
+published: 2015-10-14
+summary: 'To make a POV Display.'
+tags: [POV,led,SIPO registers,]
+---
+
+## Aim
+To make a POV Display.
+
+## Hardware Used
+- 8 – Green Colored LEDs.
+- 1 – Serial in- Parallel out shift register.
+- 1 – Digital InfraRed Sensor.
+- 1 – Motor (rpm = 1000).
+- 1 – On-board 5v power supply.
+- 1 – Arduino
+
+## Working
+The LED to be glown in a frame was sent as data using SPI comm protocol
+using slave select pin as the latch, and utilizing only MOSI.
+IR sensor was used to detect the position of completion of one revolution.
+By changing the delay ‘d’ in given code the width of characters can be changed.
+Current Status:- Completed.
+
+<Image
+  src='/static/images/blog/Persistence-Vision-Stick/1.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
+<Image
+  src='/static/images/blog/Persistence-Vision-Stick/2.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
+<Image
+  src='/static/images/blog/Persistence-Vision-Stick/3.png'
+  alt='1'
+  width='auto'
+  height='auto'
+/>
+
+<EmbedItem url='https://www.youtube.com/embed/thcln1SD9bk' />
+
+Multiple Authors: Rohan V Dvivedi, Kativarpu Parthiv, Sri Harsha Grandhi, Anurag Anand, Kativarpu Parthiv, Anurag Anand and Parakh M Gupta.
