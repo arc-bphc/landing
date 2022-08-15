@@ -20,7 +20,14 @@
     {{content}}
     {% include footer.html %}
 </body> -->
-<body onload="window.location = 'https://arc-bphc.github.io/'">
-
+<head>
+    <script language="javascript">
+        function redirect() {
+            window.location = "https://arcbphc.vercel.app";
+        }
+    </script>
+</head>
+<body onload="redirect()">
 
 </body>
+</html>
